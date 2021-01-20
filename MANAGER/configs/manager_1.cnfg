@@ -1,0 +1,11 @@
+INPUT_STREAM = input.txt
+OUTPUT_STREAM = output.txt
+WORKERS = 4
+WORKER_1 = ved.workers.My_Reader
+WORKER_2 = ved.workers.Exec
+WORKER_3 = ved.workers.Exec
+WORKER_4 = ved.workers.My_Writer
+CONF_1 = configs\\reader.cnfg
+CONF_2 = configs\\exec.cnfg
+CONF_3 = configs\\exec_d.cnfg
+CONF_4 = configs\\writer.cnfg

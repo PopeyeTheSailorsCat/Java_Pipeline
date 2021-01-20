@@ -1,0 +1,15 @@
+INPUT_STREAM = input.txt
+OUTPUT_STREAM = output.txt
+WORKERS = 6
+WORKER_1 = ved.workers.My_Reader
+WORKER_2 = ved.workers.Exec
+WORKER_3 = ved.workers.Exec
+WORKER_4 = executor.Worker
+WORKER_5 = executor.Worker
+WORKER_6 = ved.workers.My_Writer
+CONF_1 = configs\\reader.cnfg
+CONF_2 = configs\\exec.cnfg
+CONF_3 = configs\\exec_d.cnfg
+CONF_4 = libs\\marin\\my_cfg\\executor_cfg.txt
+CONF_5 =libs\\marin\\my_cfg\\executor_cfg.txt
+CONF_6 = configs\\writer.cnfg
